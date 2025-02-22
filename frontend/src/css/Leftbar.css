@@ -1,0 +1,62 @@
+.flatico{
+    width: 27px;
+    height: 27px;
+}
+.country{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 22px;
+}
+.country img{
+    margin:16px 0;
+    cursor: pointer;
+}
+.logoimg{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 31px;
+    margin-top: 31px;
+
+}
+/* .leftbar{
+    width: 38px;
+    position: relative;
+} */
+@media screen and (max-width:500px){
+    .leftbar{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: fit-content;
+        padding: 0 4px;
+        z-index: 999;
+        background-color: rgb(255, 255, 255);
+    }
+   
+}
+.modechange{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: -6px;
+    margin-top: 19px;
+    cursor: pointer;
+}
+.activecount{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: rgb(161, 161, 161); */
+    border-radius: 12px;
+    height: 40px;
+    padding: 3px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 ;
+    margin-left: -7px;
+
+}
+.totop{
+    margin-left: 9px;
+}

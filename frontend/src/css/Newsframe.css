@@ -1,0 +1,61 @@
+.imageurl img{
+    width:100%;
+    height: 270px;
+    border-radius: 16px;
+    margin-bottom: 9px;
+}
+.headlines h3{
+    font-size: 21px;
+    margin-bottom: 22px;
+    
+}
+.newsframe{
+    width: 95%;
+    margin-left: auto;
+}
+.description p{
+    font-size: 18px;
+    
+}
+.newsbox{
+    position: relative;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;padding:0 16px;
+    text-decoration: none;
+}
+.buttonreadmore button{
+    background-color: transparent;
+    width: 165px;
+    height: 39px;
+    border: 1px solid rgb(121,121,121);
+    margin: 9px 0;
+    border-radius: 15px;
+    
+}
+.buttonreadmore button:hover  .buttonreadmore button a:hover{
+    background-color: gray;
+    color: black;
+}
+.buttonreadmore button a{
+    font-size: 16px;
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+
+}
+.newsbox{
+    margin-bottom: 12px;
+}
+
+@media screen and (max-width:706px){
+    .newsframe{
+        width: 90%;
+        margin-left: auto;
+    }
+}
+.content{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14.25px;
+}
